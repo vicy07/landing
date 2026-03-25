@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viktor | Platform Engineering &amp; AI Systems</title>
+    <meta
+      name="description"
+      content="Viktor builds scalable platforms, AI-driven systems, and automation pipelines."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            boxShadow: {
+              soft: "0 20px 60px rgba(15, 23, 42, 0.35)",
+            },
+            animation: {
+              "fade-in": "fade-in 700ms ease-out both",
+            },
+            keyframes: {
+              "fade-in": {
+                "0%": { opacity: "0", transform: "translateY(16px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        color-scheme: dark;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+          transition: none !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased">
+    <div class="relative overflow-hidden">
+      <div class="pointer-events-none absolute inset-0">
+        <div class="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl"></div>
+        <div class="absolute right-0 top-40 h-72 w-72 rounded-full bg-sky-400/10 blur-3xl"></div>
+      </div>
+
+      <main class="relative mx-auto flex min-h-screen max-w-[900px] flex-col px-6 py-16 sm:px-8 sm:py-20">
+        <section class="animate-fade-in text-center">
+          <p class="mb-4 text-sm font-medium uppercase tracking-[0.32em] text-cyan-300/80">
+            Personal Profile
+          </p>
+          <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
+            Viktor
+          </h1>
+          <p class="mt-5 text-lg font-medium text-slate-300 sm:text-xl">
+            Platform Engineering &amp; AI Systems
+          </p>
+          <p class="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+            Building scalable platforms, AI-driven systems, and automation
+            pipelines.
+          </p>
+        </section>
+
+        <section class="mt-20 animate-fade-in [animation-delay:120ms]">
+          <div class="mb-8 flex items-center justify-between gap-4">
+            <h2 class="text-2xl font-semibold tracking-tight text-white">Selected Projects</h2>
+            <div class="h-px flex-1 bg-slate-800"></div>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <a
+              href="http://family.niceit.space/"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900"
+            >
+              <div class="mb-4 flex items-center justify-between gap-3">
+                <h3 class="text-lg font-semibold text-white">Family Tree Builder</h3>
+                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              </div>
+              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+                Personal tool
+              </p>
+              <p class="text-sm leading-6 text-slate-400">
+                Practical family relationship mapping tool for building and
+                exploring structured family trees.
+              </p>
+            </a>
+
+            <a
+              href="https://atlas.niceit.space/"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900"
+            >
+              <div class="mb-4 flex items-center justify-between gap-3">
+                <h3 class="text-lg font-semibold text-white">Atlas</h3>
+                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              </div>
+              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+                AI systems
+              </p>
+              <p class="text-sm leading-6 text-slate-400">
+                Long-term memory service for AI agents and workflows that need
+                durable context.
+              </p>
+            </a>
+
+            <a
+              href="https://investor.niceit.space/"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:col-span-2 lg:col-span-1"
+            >
+              <div class="mb-4 flex items-center justify-between gap-3">
+                <h3 class="text-lg font-semibold text-white">Investor Console</h3>
+                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              </div>
+              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+                Automation
+              </p>
+              <p class="text-sm leading-6 text-slate-400">
+                Finance-focused console for tracking, organizing, and
+                automating investor workflows.
+              </p>
+            </a>
+          </div>
+        </section>
+
+        <section class="mt-20 animate-fade-in [animation-delay:240ms]">
+          <div class="mb-8 flex items-center justify-between gap-4">
+            <h2 class="text-2xl font-semibold tracking-tight text-white">About</h2>
+            <div class="h-px flex-1 bg-slate-800"></div>
+          </div>
+          <div class="rounded-2xl border border-slate-800/80 bg-slate-900/50 p-8 shadow-soft">
+            <p class="max-w-3xl text-base leading-8 text-slate-300">
+              My core work is in platform engineering, AI agents, and
+              automation at scale, with a bias toward systems that are reliable
+              under real-world constraints. The projects here are practical
+              builds and experiments: useful tools, applied automation, and
+              straightforward solutions that prioritize function over noise.
+            </p>
+          </div>
+        </section>
+
+        <section class="mt-20 animate-fade-in [animation-delay:360ms]">
+          <div class="mb-8 flex items-center justify-between gap-4">
+            <h2 class="text-2xl font-semibold tracking-tight text-white">Links</h2>
+            <div class="h-px flex-1 bg-slate-800"></div>
+          </div>
+          <div class="flex flex-col gap-3 text-sm text-slate-300 sm:text-base">
+            <a
+              href="https://github.com/vicy07"
+              target="_blank"
+              rel="noreferrer"
+              class="rounded-xl border border-slate-800/80 bg-slate-900/50 px-5 py-4 transition hover:border-cyan-400/40 hover:text-white"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/viktors-jesilevskis/"
+              target="_blank"
+              rel="noreferrer"
+              class="rounded-xl border border-slate-800/80 bg-slate-900/50 px-5 py-4 transition hover:border-cyan-400/40 hover:text-white"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
