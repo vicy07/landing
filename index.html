@@ -43,47 +43,47 @@
       }
     </style>
   </head>
-  <body class="min-h-screen bg-slate-950 text-slate-100 antialiased">
+  <body class="min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 antialiased">
     <div class="relative overflow-hidden">
       <div class="pointer-events-none absolute inset-0">
-        <div class="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl"></div>
-        <div class="absolute right-0 top-40 h-72 w-72 rounded-full bg-sky-400/10 blur-3xl"></div>
+        <div class="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl sm:h-96 sm:w-96"></div>
+        <div class="absolute right-0 top-32 h-56 w-56 rounded-full bg-sky-400/10 blur-3xl sm:top-40 sm:h-72 sm:w-72"></div>
       </div>
 
-      <main class="relative mx-auto flex min-h-screen max-w-[900px] flex-col px-6 py-16 sm:px-8 sm:py-20">
+      <main class="relative mx-auto flex min-h-screen max-w-[900px] flex-col px-4 py-10 sm:px-8 sm:py-20">
         <section class="animate-fade-in text-center">
-          <p class="mb-4 text-sm font-medium uppercase tracking-[0.32em] text-cyan-300/80">
+          <p class="mb-3 text-xs font-medium uppercase tracking-[0.28em] text-cyan-300/80 sm:mb-4 sm:text-sm sm:tracking-[0.32em]">
             Personal Profile
           </p>
-          <h1 class="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
+          <h1 class="text-3xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
             Viktor
           </h1>
-          <p class="mt-5 text-lg font-medium text-slate-300 sm:text-xl">
+          <p class="mt-4 text-base font-medium text-slate-300 sm:mt-5 sm:text-xl">
             Platform Engineering &amp; AI Systems
           </p>
-          <p class="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+          <p class="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-400 sm:mt-6 sm:text-lg sm:leading-7">
             Building scalable platforms, AI-driven systems, and automation
             pipelines.
           </p>
         </section>
 
-        <section class="mt-20 animate-fade-in [animation-delay:120ms]">
-          <div class="mb-8 flex items-center justify-between gap-4">
-            <h2 class="text-2xl font-semibold tracking-tight text-white">Selected Projects</h2>
+        <section class="mt-14 animate-fade-in sm:mt-20 [animation-delay:120ms]">
+          <div class="mb-6 flex items-center justify-between gap-3 sm:mb-8 sm:gap-4">
+            <h2 class="text-xl font-semibold tracking-tight text-white sm:text-2xl">Selected Projects</h2>
             <div class="h-px flex-1 bg-slate-800"></div>
           </div>
-          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
             <a
-              href="http://family.niceit.space/"
+              href="https://family.niceit.space/"
               target="_blank"
               rel="noreferrer"
-              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
             >
-              <div class="mb-4 flex items-center justify-between gap-3">
-                <h3 class="text-lg font-semibold text-white">Family Tree Builder</h3>
-                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Family Tree Builder</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
               </div>
-              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+              <p class="mb-3 text-[11px] font-medium uppercase tracking-[0.2em] text-cyan-300/70 sm:text-xs sm:tracking-[0.22em]">
                 Personal tool
               </p>
               <p class="text-sm leading-6 text-slate-400">
@@ -96,13 +96,13 @@
               href="https://atlas.niceit.space/"
               target="_blank"
               rel="noreferrer"
-              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
             >
-              <div class="mb-4 flex items-center justify-between gap-3">
-                <h3 class="text-lg font-semibold text-white">Atlas</h3>
-                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Atlas</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
               </div>
-              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+              <p class="mb-3 text-[11px] font-medium uppercase tracking-[0.2em] text-cyan-300/70 sm:text-xs sm:tracking-[0.22em]">
                 AI systems
               </p>
               <p class="text-sm leading-6 text-slate-400">
@@ -115,13 +115,13 @@
               href="https://investor.niceit.space/"
               target="_blank"
               rel="noreferrer"
-              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-6 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:col-span-2 lg:col-span-1"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:col-span-2 sm:p-6 lg:col-span-1"
             >
-              <div class="mb-4 flex items-center justify-between gap-3">
-                <h3 class="text-lg font-semibold text-white">Investor Console</h3>
-                <span class="text-lg text-cyan-300 transition group-hover:translate-x-0.5">&nearr;</span>
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Investor Console</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
               </div>
-              <p class="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-cyan-300/70">
+              <p class="mb-3 text-[11px] font-medium uppercase tracking-[0.2em] text-cyan-300/70 sm:text-xs sm:tracking-[0.22em]">
                 Automation
               </p>
               <p class="text-sm leading-6 text-slate-400">
@@ -132,13 +132,13 @@
           </div>
         </section>
 
-        <section class="mt-20 animate-fade-in [animation-delay:240ms]">
-          <div class="mb-8 flex items-center justify-between gap-4">
-            <h2 class="text-2xl font-semibold tracking-tight text-white">About</h2>
+        <section class="mt-14 animate-fade-in sm:mt-20 [animation-delay:240ms]">
+          <div class="mb-6 flex items-center justify-between gap-3 sm:mb-8 sm:gap-4">
+            <h2 class="text-xl font-semibold tracking-tight text-white sm:text-2xl">About</h2>
             <div class="h-px flex-1 bg-slate-800"></div>
           </div>
-          <div class="rounded-2xl border border-slate-800/80 bg-slate-900/50 p-8 shadow-soft">
-            <p class="max-w-3xl text-base leading-8 text-slate-300">
+          <div class="rounded-2xl border border-slate-800/80 bg-slate-900/50 p-5 shadow-soft sm:p-8">
+            <p class="max-w-3xl text-sm leading-7 text-slate-300 sm:text-base sm:leading-8">
               My core work is in platform engineering, AI agents, and
               automation at scale, with a bias toward systems that are reliable
               under real-world constraints. The projects here are practical
@@ -148,30 +148,89 @@
           </div>
         </section>
 
-        <section class="mt-20 animate-fade-in [animation-delay:360ms]">
-          <div class="mb-8 flex items-center justify-between gap-4">
-            <h2 class="text-2xl font-semibold tracking-tight text-white">Links</h2>
+        <section class="mt-14 animate-fade-in sm:mt-20 [animation-delay:360ms]">
+          <div class="mb-6 flex items-center justify-between gap-3 sm:mb-8 sm:gap-4">
+            <h2 class="text-xl font-semibold tracking-tight text-white sm:text-2xl">Toolbox</h2>
             <div class="h-px flex-1 bg-slate-800"></div>
           </div>
-          <div class="flex flex-col gap-3 text-sm text-slate-300 sm:text-base">
+          <div class="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
             <a
-              href="https://github.com/vicy07"
+              href="https://github.com/"
               target="_blank"
               rel="noreferrer"
-              class="rounded-xl border border-slate-800/80 bg-slate-900/50 px-5 py-4 transition hover:border-cyan-400/40 hover:text-white"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
             >
-              GitHub
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">GitHub</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
+              </div>
+              <p class="text-sm leading-6 text-slate-400">
+                Code hosting, version control, and collaboration.
+              </p>
             </a>
+
             <a
-              href="https://www.linkedin.com/in/viktors-jesilevskis/"
+              href="https://railway.com/"
               target="_blank"
               rel="noreferrer"
-              class="rounded-xl border border-slate-800/80 bg-slate-900/50 px-5 py-4 transition hover:border-cyan-400/40 hover:text-white"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
             >
-              LinkedIn
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Railway</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
+              </div>
+              <p class="text-sm leading-6 text-slate-400">
+                Deployment platform for apps, services, and databases.
+              </p>
+            </a>
+
+            <a
+              href="https://cloudflare.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
+            >
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Cloudflare</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
+              </div>
+              <p class="text-sm leading-6 text-slate-400">
+                Edge networking, DNS, security, and performance tools.
+              </p>
+            </a>
+
+            <a
+              href="https://chatgpt.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
+            >
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">ChatGPT</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
+              </div>
+              <p class="text-sm leading-6 text-slate-400">
+                AI assistant for writing, research, and day-to-day workflows.
+              </p>
+            </a>
+
+            <a
+              href="https://chatgpt.com/codex"
+              target="_blank"
+              rel="noreferrer"
+              class="group rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-soft backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/40 hover:bg-slate-900 sm:p-6"
+            >
+              <div class="mb-3 flex items-start justify-between gap-3 sm:mb-4">
+                <h3 class="min-w-0 text-base font-semibold leading-tight text-white sm:text-lg">Codex</h3>
+                <span class="mt-0.5 text-base text-cyan-300 transition group-hover:translate-x-0.5 sm:text-lg">&nearr;</span>
+              </div>
+              <p class="text-sm leading-6 text-slate-400">
+                OpenAI coding agent for implementation, review, and automation.
+              </p>
             </a>
           </div>
         </section>
+
       </main>
     </div>
   </body>
