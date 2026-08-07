@@ -1,0 +1,27 @@
+# Clarity Creates Freedom
+
+Clarity Creates Freedom is the public website of Viktors Jesilevskis, an executive technology leader and fractional CTO advisor.
+
+## Focus
+
+- Executive technology leadership: CTO, VP Engineering, Head of Engineering, transformation and interim leadership mandates.
+- Fractional CTO advisory: technology direction, engineering operating models, delivery systems, ownership and decision clarity.
+- Mentoring: practical support for engineering leaders and managers working through a live leadership decision or change.
+- Engineering Lab: independent hands-on projects exploring platform engineering, engineering intelligence, automation and AI.
+
+## Pages
+
+- https://niceit.space/ — overview and ways to work together.
+- https://niceit.space/cv.html — executive CV and leadership experience.
+- https://niceit.space/fractional-cto.html — fractional CTO advisory, fit and first-month working outputs.
+- https://niceit.space/mentoring.html — mentoring format, scope and contact route.
+- https://niceit.space/lab.html — selected engineering projects and working methods.
+
+## Contact and identity
+
+- Viktors Jesilevskis: https://www.linkedin.com/in/viktors-jesilevskis/
+- Executive opportunities: viktors@niceit.space
+- Fractional CTO advisory: cto@niceit.space
+- Mentoring: mentoring@niceit.space
+
+The site is in English. Mentoring sessions are available online in English or Russian.
