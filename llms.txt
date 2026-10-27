@@ -1,10 +1,10 @@
 # Clarity Creates Freedom
 
-Clarity Creates Freedom is the public website of Viktors Jesilevskis, an executive technology leader and fractional CTO advisor.
+Clarity Creates Freedom is the public website of Viktors Jesilevskis, an Engineering & Platform Leader based in Riga, Latvia.
 
 ## Focus
 
-- Executive technology leadership: CTO, VP Engineering, Head of Engineering, transformation and interim leadership mandates.
+- Engineering and platform leadership: VP Engineering, Head of Engineering, VP or Head of Platforms, and selected CTO mandates with responsibility for delivery, reliability and platform evolution.
 - Fractional CTO advisory: technology direction, engineering operating models, delivery systems, ownership and decision clarity.
 - Mentoring: practical support for engineering leaders and managers working through a live leadership decision or change.
 - Engineering Lab: independent hands-on projects exploring platform engineering, engineering intelligence, automation and AI.
@@ -12,7 +12,7 @@ Clarity Creates Freedom is the public website of Viktors Jesilevskis, an executi
 ## Pages
 
 - https://niceit.space/ — overview and ways to work together.
-- https://niceit.space/cv.html — executive CV and leadership experience.
+- https://niceit.space/cv.html — engineering and platform leadership profile and experience.
 - https://niceit.space/fractional-cto.html — fractional CTO advisory, fit and first-month working outputs.
 - https://niceit.space/mentoring.html — mentoring format, scope and contact route.
 - https://niceit.space/lab.html — selected engineering projects and working methods.
@@ -20,7 +20,7 @@ Clarity Creates Freedom is the public website of Viktors Jesilevskis, an executi
 ## Contact and identity
 
 - Viktors Jesilevskis: https://www.linkedin.com/in/viktors-jesilevskis/
-- Executive opportunities: viktors@niceit.space
+- Engineering and platform leadership opportunities: viktors@niceit.space
 - Fractional CTO advisory: cto@niceit.space
 - Mentoring: mentoring@niceit.space
 
