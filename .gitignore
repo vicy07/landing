@@ -1,3 +1,5 @@
 # This repository is deployed directly as a public GitHub Pages site.
 # Keep private working material out of both Git and the published site.
 /docs/
+/tmp/
+/.playwright-cli/
