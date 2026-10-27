@@ -21,7 +21,7 @@
     <meta name="twitter:image" content="https://niceit.space/assets/viktor-manifesto.png" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Engineering Lab","description":"Independent hands-on projects exploring platform engineering, engineering intelligence, automation and AI.","url":"https://niceit.space/lab.html","author":{"@type":"Person","name":"Viktors Jesilevskis","url":"https://niceit.space/"},"inLanguage":"en"}</script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="brand.css" />
+    <link rel="stylesheet" href="brand.css?v=20261027" />
     <script>
       tailwind.config = {
         theme: {
@@ -44,7 +44,7 @@
     </script>
     <style>
       html {
-        color-scheme: dark;
+        color-scheme: light;
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -58,10 +58,7 @@
   </head>
   <body class="brand-site min-h-screen overflow-x-hidden bg-slate-950 text-slate-100 antialiased">
     <div class="relative overflow-hidden">
-      <div class="pointer-events-none absolute inset-0">
-        <div class="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-500/10 blur-3xl sm:h-96 sm:w-96"></div>
-        <div class="absolute right-0 top-32 h-56 w-56 rounded-full bg-sky-400/10 blur-3xl sm:top-40 sm:h-72 sm:w-72"></div>
-      </div>
+
 
       <main class="relative mx-auto flex min-h-screen max-w-5xl flex-col px-5 py-8 sm:px-8 sm:py-12">
         <nav class="site-nav" aria-label="Primary navigation">
@@ -73,11 +70,11 @@
             <a href="https://www.linkedin.com/in/viktors-jesilevskis/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">&nearr;</span></a>
           </div>
         </nav>
-        <section class="animate-fade-in text-center">
+        <section class="lab-hero" aria-labelledby="lab-heading">
           <p class="mb-3 text-xs font-medium uppercase tracking-[0.28em] text-cyan-300/80 sm:mb-4 sm:text-sm sm:tracking-[0.32em]">
             Engineering Hobby Lab
           </p>
-          <h1 class="text-3xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
+          <h1 id="lab-heading" class="text-3xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
             Clarity creates freedom.
           </h1>
           <p class="mt-4 text-base font-medium text-slate-300 sm:mt-5 sm:text-xl">
@@ -104,32 +101,6 @@
             This is primarily a hobby project lab for personal learning and
             practice. Production work is explicitly identified where included.
           </p>
-        </section>
-
-        <section class="mt-10 animate-fade-in sm:mt-14 [animation-delay:80ms]">
-          <div class="rounded-2xl border border-cyan-400/20 bg-cyan-950/20 p-5 shadow-soft sm:p-7">
-            <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-              <div class="max-w-2xl">
-                <p class="text-[11px] font-medium uppercase tracking-[0.22em] text-cyan-300/70">Shared engineering baseline</p>
-                <h2 class="mt-2 text-lg font-semibold text-white sm:text-xl">Every project is built around Guidelines</h2>
-                <p class="mt-3 text-sm leading-6 text-slate-400">
-                  A reusable product and engineering framework keeps the work
-                  consistent from the first idea through architecture,
-                  implementation, verification, and operation. It brings the
-                  discipline of large-scale engineering into small experiments.
-                </p>
-              </div>
-              <span class="w-fit whitespace-nowrap rounded-full border border-cyan-400/25 bg-cyan-400/10 px-3 py-1.5 text-xs font-medium text-cyan-200">Guidelines-driven</span>
-            </div>
-            <div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300" aria-label="Guidelines coverage">
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Mission</span>
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Use Cases</span>
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Architecture</span>
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Quality</span>
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Operations</span>
-              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Observability</span>
-            </div>
-          </div>
         </section>
 
         <section class="mt-14 animate-fade-in sm:mt-20 [animation-delay:120ms]">
@@ -306,6 +277,31 @@
           </div>
         </section>
 
+<section class="mt-10 animate-fade-in sm:mt-14 [animation-delay:80ms]">
+          <div class="rounded-2xl border border-cyan-400/20 bg-cyan-950/20 p-5 shadow-soft sm:p-7">
+            <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+              <div class="max-w-2xl">
+                <p class="text-[11px] font-medium uppercase tracking-[0.22em] text-cyan-300/70">Shared engineering baseline</p>
+                <h2 class="mt-2 text-lg font-semibold text-white sm:text-xl">Every project is built around Guidelines</h2>
+                <p class="mt-3 text-sm leading-6 text-slate-400">
+                  A reusable product and engineering framework keeps the work
+                  consistent from the first idea through architecture,
+                  implementation, verification, and operation. It brings the
+                  discipline of large-scale engineering into small experiments.
+                </p>
+              </div>
+              <span class="w-fit whitespace-nowrap rounded-full border border-cyan-400/25 bg-cyan-400/10 px-3 py-1.5 text-xs font-medium text-cyan-200">Guidelines-driven</span>
+            </div>
+            <div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300" aria-label="Guidelines coverage">
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Mission</span>
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Use Cases</span>
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Architecture</span>
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Quality</span>
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Operations</span>
+              <span class="rounded-md bg-slate-900/70 px-2.5 py-1.5">Observability</span>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   </body>
